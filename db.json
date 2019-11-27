@@ -14,11 +14,8 @@
   },
   "API1": [
     {
-      "Status": "success",
       "OcplmVariantId": 1000001234,
-      "ItemDescription" : "Blah",
-      "TemplateName" : "Core",
-      "TemplateType" : "LIRA",
+      "Template" : "Core LIRA",
       "LastChangeDtm": "10/09/2019 13:00",
       "Attributes": [
         {
@@ -40,9 +37,7 @@
   
   "API2": [
     {
-      "Status": "success",
       "OcplmVariantId": 1000001234,
-      "ItemDescription" : "Blah",
       "FinishedGoodId" : 1000007654,
       "FgDescription" : "Blah",
       "LastChangeDtm": "10/09/2019 13:00",
