@@ -27,43 +27,47 @@
   "API1": [
     {
       "Status": "success",
-      "OcplmVariantId": "1000001234",
+      "OcplmVariantId": 1000001234,
       "ItemDescription" : "Blah",
       "TemplateName" : "Core",
       "TemplateType" : "LIRA",
       "LastChangeDtm": "10/09/2019 13:00",
       "Attributes": [
         {
-          "Name": "OCPLMField1",
-          "Description": "OCPLM Field 1 Display",
-          "LegacyName": "SAPField1",
-          "Group": "Attr Group 1",
-          "RevControlled": "true",
-          "Format": "text"
+          "DatabaseName": "MM-CACHE",
+          "DisplayName": "Cache Size",
+          "DataFormat": "Number",
+          "Required" : "Y",
+          "Group": "Memory Specifications"
         },
         {
-          "Name": "OCPLMField1",
-          "Description": "OCPLM Field 1 Display",
-          "LegacyName": "SAPField2",
-          "Group": "Attr Group 2",
-          "RevControlled": "false",
-          "Format": "number"
+          "DatabaseName": "MM-CACHE-UOM",
+          "DisplayName": "Cache Size UOM",
+          "DataFormat": "Text",
+          "Required" : "Y"
+        }
+      ]
+    }
+  ],
+  
+  "API2": [
+    {
+      "Status": "success",
+      "OcplmVariantId": 1000001234,
+      "ItemDescription" : "Blah",
+      "FinishedGoodId" : 1000007654,
+      "FgDescription" : "Blah",
+      "LastChangeDtm": "10/09/2019 13:00",
+      "Attributes": [
+        {
+          "DatabaseName": "MM-CACHE",
+          "DisplayName": "Cache Size",
+          "Value": 2
         },
         {
-          "Name": "OCPLMField2",
-          "Description": "OCPLM Field 2 Display",
-          "LegacyName": "SAPField3",
-          "Group": "Attr Group 2",
-          "RevControlled": "false",
-          "Format": "number"
-        },
-        {
-          "Name": "OCPLMField3",
-          "Description": "OCPLM Field 3 Display",
-          "LegacyName": "",
-          "Group": "Attr Group 2",
-          "RevControlled": "false",
-          "Format": "number"
+          "DatabaseName": "MM-CACHE-UOM",
+          "DisplayName": "Cache Size UOM",
+          "Value": "MB"
         }
       ]
     }
