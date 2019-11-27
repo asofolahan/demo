@@ -28,7 +28,7 @@
     {
       "Status": "success",
       "OcplmVariantId": "1000001234",
-      "ItemDescription" : "Blah"
+      "ItemDescription" : "Blah",
       "TemplateName" : "Core",
       "TemplateType" : "LIRA",
       "LastChangeDtm": "10/09/2019 13:00",
