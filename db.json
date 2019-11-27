@@ -13,11 +13,15 @@
   },
   
   "API0": {
-    "name": "VariantItemAssociationV1,
+    "name": "VariantItemAssociationV1",
     "elements": [
       {
-        "ocplmVariantId": 1000001234,
-        "speedVariantId": 9871523
+        "OcplmVariantId": 1000001234,
+        "SpeedVariantId": 9871523
+      },
+      {
+        "OcplmVariantId": 1000001285,
+        "SpeedVariantId": 9233312
       }
     ]
   }
