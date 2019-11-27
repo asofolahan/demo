@@ -14,7 +14,7 @@
   
   "API0": {
   "name": "VariantItemAssociationV1,
-  "elements: [
+  "elements": [
   {
     "OcplmVariantId": 1000001234,
   "SpeedVariantId": 9871523
